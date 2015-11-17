@@ -12,6 +12,7 @@ class Controller_Top extends Controller
 	//	rootで指定されたアクション
 	public function action_hello()
 	{
-		echo "Hello FuelPHPデプロイ検証環境";
+		echo "Hello FuelPHPデプロイ検証環境<br>";
+		echo "更新：2015年11月17日(火) 14:00";
 	}
 }
