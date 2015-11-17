@@ -16,5 +16,8 @@ class Controller_Top extends Controller
 		echo "更新：2015年11月17日(火) 14:00<br>";
 		echo "<br>";
 		echo "Capistranoのドキュメントわかりにくい<br>";
+
+		$datetime = date('Y-m-d H:i:s');
+		Log::info("アクセス日時={$datetime}");
 	}
 }
